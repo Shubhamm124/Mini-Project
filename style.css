@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+#two_in_one div {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+#two_in_one h2 {
+  font-size: 3rem;
+  font-weight: 650;
+}
+
+#two_in_one b {
+  font-size: 1.25rem;
+}
+
+#odd {
+  padding: 10px 20px;
+  background-color: blue;
+  width: 100%;
+  color: black;
+  margin: 20px 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#cards {
+  background-color: blue;
+}
+
+#form_img {
+  background-color: blue;
+  padding: 50px 5px;
+}
+
+#anchor_links a {
+  color: red;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
